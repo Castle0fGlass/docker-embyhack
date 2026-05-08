@@ -3,7 +3,7 @@ services:
   emby:
     # 如果你不用 linuxserver 的 emby 镜像
     # 下面 volumes 的 dll/js 文件映射路径也要改变
-    image: linuxserver/emby:4.8.11
+    image: linuxserver/emby:4.10.0-beta
 
     container_name: emby
     environment:
